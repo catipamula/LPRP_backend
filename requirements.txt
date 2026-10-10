@@ -1,0 +1,20 @@
+
+# Core Web Framework
+Django>=5.0.0,<6.2.0
+asgiref>=3.8.0
+sqlparse>=0.5.0
+tzdata>=2025.1
+
+# REST API & Authentication
+djangorestframework>=3.15.0
+django-cors-headers>=4.7.0
+
+# Database Connectors (MySQL & SQLite support)
+PyMySQL>=1.1.0
+cryptography>=43.0.0
+
+# Media & Image Processing (for complaint photo uploads)
+Pillow>=10.4.0
+
+# Environment Variables & Configuration
+python-dotenv>=1.0.1
