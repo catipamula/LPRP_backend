@@ -25,7 +25,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'smart-city-resolver-insecure-k
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*','https://lprp-backend.onrender.com','https://lprp-backend.onrender.com/api']
 
 # Application definition
 INSTALLED_APPS = [
